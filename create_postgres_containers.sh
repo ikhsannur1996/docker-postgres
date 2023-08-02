@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the number of containers you want to create
-NUM_CONTAINERS=2
+NUM_CONTAINERS=20
 
 # Set the base name for the containers
 CONTAINER_BASE_NAME="student"
@@ -13,7 +13,7 @@ STARTING_COUNTER=1
 BASE_PASSWORD="student"
 
 # Set the starting port number for the containers
-STARTING_PORT=5432
+STARTING_PORT=5431
 
 # Output file name
 OUTPUT_FILE="postgres_containers.csv"
